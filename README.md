@@ -1,14 +1,16 @@
-## Aerolinea
+# Aerolinea
 
-# Descripción
+## Descripción
 Pagina Web Aerolinea
 
-# Autor
+## Ver Ejemplo
+-[https://eddiecinhoz.github.io/Pagina-Aerolinea/](https://eddiecinhoz.github.io/Pagina-Aerolinea/)
+
+## Autor
 
 *[LinkedIn](https://www.linkedin.com/in/eddiecinhoz/)
 
-# Instalación
+## Instalación
 
-Dar click sobre el archivo html
+Dar click sobre el archivo .html
 
-# Licencia
