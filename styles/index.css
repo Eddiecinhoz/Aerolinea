@@ -1,0 +1,345 @@
+body {
+  font-family: Arial;
+}
+
+h2 span,
+h1 span {
+  color: #ff7434;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 60px;
+}
+
+h4,
+p {
+  color: gray;
+}
+
+.btn-primary {
+  padding: 10px 50px;
+}
+
+.navbar #nav-container {
+  background-color: white;
+  padding: 0px;
+}
+.navbar {
+  padding: 0;
+  font-weight: bold;
+  background-color: white;
+  position: sticky; /* pegajoso */
+  top: 0;
+  z-index: 99999;
+}
+.navbar .btn-primary {
+  border: 0;
+}
+#btn1 {
+  color: #ff7434;
+  background-color: white;
+}
+
+#btn1:hover {
+  background-color: #ffe3d6;
+}
+
+#btn2,
+#btnsubs {
+  color: white;
+  background-color: #ff7434;
+  box-shadow: 2px 2px 2px rgb(255, 191, 123);
+  border: 0;
+}
+
+#btn2:hover {
+  background-color: #aa4d23;
+}
+
+#btnsubs:hover {
+  background-color: #aa4d23;
+}
+
+#first-container {
+  padding: 50px 0px;
+}
+
+#start {
+  padding: 30px 0;
+}
+
+#first-container .btn-primary {
+  color: #ff7434;
+  background-color: white;
+  border-color: #ff7434;
+}
+
+#dropdown-1 {
+  padding-left: 0;
+  background-color: white;
+  color: black;
+  color: #ff7434;
+  font-weight: bold;
+  border: 0;
+}
+
+#explore-container {
+  padding: 0 250px 100px 250px;
+}
+
+#explore-container p {
+  font-size: 10px;
+}
+
+#explore-container .btn-primary {
+  padding: 10px;
+}
+
+#ad-container-1,
+#ad-container-2,
+#ad-container-3,
+#comment-container,
+#blog-container {
+  padding: 100px 150px;
+}
+
+#subs-container {
+  padding: 100px 150px;
+  background-color: #ff7434;
+  border-radius: 5em;
+}
+
+#ad-container-1 h2,
+#ad-container-2 h2,
+#ad-container-3 h2,
+#blog-container h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#comment-container h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+
+#subs-container h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+#ad-container-1 .col h5,
+#ad-container-2 .col h5,
+#ad-container-3 h5 {
+  font-weight: bold;
+}
+
+#blog-container .col h5 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#blog-container .col p {
+  font-size: 10px;
+}
+
+#ad-p-1 {
+  padding: 0 200px;
+  text-align: center;
+}
+
+#ad-p-2 {
+  padding: 0 265px;
+  text-align: center;
+}
+
+#ad-p-3 {
+  padding: 0 200px;
+  text-align: center;
+}
+
+#ad-container-1 img {
+  width: 35px;
+  height: 40px;
+  margin: 16px;
+}
+
+#ad-container-1 .col p {
+  font-size: 10px;
+}
+
+#ad-container-2 .card-body img {
+  width: 8%;
+  height: 60%;
+}
+
+#ad-container-2 .container img {
+  width: 100%;
+  height: 100%;
+}
+
+#ad-container-2 .container {
+  padding: 0;
+}
+
+#destinations {
+  width: 25%;
+  height: 80%;
+}
+
+#ad-container-2 .card-body p {
+  font-size: 10px;
+  margin-bottom: 8px;
+}
+
+#valoration {
+  text-align: right;
+}
+
+#old-price {
+  text-decoration: line-through;
+  color: gray;
+  padding: 0 5px;
+}
+
+#new-price {
+  text-decoration: none;
+  color: #ff7434;
+  background-color: rgb(255, 191, 123);
+  font-weight: bold;
+  border-radius: 10%;
+  padding: 0 5px;
+}
+
+#ad-container-2 .card .btn-primary {
+  visibility: hidden;
+  padding: 0 10px;
+  color: white;
+  background-color: #ff7434;
+  box-shadow: 2px 2px 2px rgb(255, 191, 123);
+  border: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ad-container-2 .card {
+  cursor: pointer;
+}
+
+#btnfirenze:hover,
+#imgfirenze:hover ~ #btnfirenze {
+  visibility: visible;
+}
+
+#imgfirenze:hover {
+  opacity: 0.5;
+}
+
+#btnmadrid:hover,
+#imgmadrid:hover ~ #btnmadrid {
+  visibility: visible;
+}
+
+#imgmadrid:hover {
+  opacity: 0.5;
+}
+
+#btnparis:hover,
+#imgparis:hover ~ #btnparis {
+  visibility: visible;
+}
+
+#imgparis:hover {
+  opacity: 0.5;
+}
+
+#btnlondon:hover,
+#imglondon:hover ~ #btnlondon {
+  visibility: visible;
+}
+
+#imglondon:hover {
+  opacity: 0.5;
+}
+
+#vacations {
+  width: 25%;
+  height: 80%;
+}
+
+#ad-container-3 .card-body #price {
+  text-align: right;
+  color: #ff7434;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#comment-container img {
+  width: 100%;
+  height: 100%;
+}
+
+#blog-container img {
+  width: 100%;
+  height: 100%;
+}
+
+#subs-container form {
+  padding: 5px;
+  background-color: white;
+}
+
+#subs-container form input[type="text"] {
+  flex: 1 1;
+  border: 0;
+}
+
+#pie-de-pagina {
+  padding: 100px 150px;
+}
+
+#social-media {
+  padding: 0;
+}
+
+#facebook {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 40%;
+  box-shadow: 2px 2px 2px gray;
+}
+
+#instagram {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  background-color: #ff7434;
+  padding: 10px;
+  border-radius: 40%;
+  box-shadow: 2px 2px 2px gray;
+}
+#twitter {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 40%;
+  box-shadow: 2px 2px 2px gray;
+}
+
+#Terms {
+  border-top: 1px solid gray;
+}

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+        <link rel="stylesheet" href="styles/index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <Title>Workshop HTML y CSS</Title>
+    </head>
+    <body>
+        <header>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container" id="nav-container">
+                <logo class="navbar-brand" id="logo"><img src="assets/img/trabook_logo.png" alt="Trabook Logo" srcset=""></logo>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home</a>
+                    <a class="nav-item nav-link active" href="#">About</a>
+                    <a class="nav-item nav-link active" href="#">Destination</a>
+                    <a class="nav-item nav-link active" href="#">Tour</a>
+                    <a class="nav-item nav-link active" href="#">Blog</a>
+                </div>
+                <div class="navbar">
+                    <a id="btn1" class="btn btn-primary" href="#">Login</a>
+                    <a id="btn2" class="btn btn-primary"  href="#">Sing up</a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="container" id="first-container">
+                <div class="row">
+                    <div class="col">
+                        <div id="start">
+                            <h1>Get started your exciting <span> journey </span> with us</h1>
+                        </div>
+                        <div id="start">
+                            <h4>A Team of experienced tourism professionals will provide you with the best advice and tips for you desire place</h4>
+                        </div>
+                        <div id="start">
+                            <a class="btn btn-primary" href="#">Discover Now</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/get_started.png" alt="Get started">
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="explore-container">
+                <div class="row d-flex">
+                    <div class="col">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" id="dropdown-1">
+                              Location
+                            </button>
+                        </div>
+                        <p>Where are you going</p>
+                    </div>
+                    <div class="col">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" id="dropdown-1">
+                              Date
+                            </button>
+                        </div>
+                        <p>When you will go</p>
+                    </div>
+                    <div class="col">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" id="dropdown-1">
+                              Guest
+                            </button>
+                        </div>
+                        <p>Number of guest</p>
+                    </div>
+                    <div class="col">
+                        <a id="btn2" class="btn btn-primary" href="#">Explore Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="ad-container-1">
+                <div class="row">
+                    <div>
+                        <h2>Things you need <span>to do</span></h2>
+                        <p id="ad-p-1">We ensure that you'll embark on a perfectly planned safe vacation ar a price you can afford</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/sign_up.png" alt="Sing up">
+                            <div class="card-body">
+                                <h5 class="card-title">Sign Up</h5>
+                                <p class="card-text h6">Completes all the work associated with planning and processing</p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/worth_money.png" alt="Worth of Money">
+                            <div class="card-body">
+                                <h5 class="card-title">Worth of Money</h5>
+                                <p class="card-text h6">After successful access then book from exclusive deals & pricing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="assets/img/exciting_travel.png" alt="Exciting Travel">
+                            <div class="card-body">
+                                <h5 class="card-title">Exciting Travel</h5>
+                                <p class="card-text h6">Start and explore a wide range of exciting travel experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="ad-container-2">
+                <div class="row">
+                    <h2>Exclusive <span>deals & discounts</span></h2>
+                    <p id="ad-p-2">Discover our fantastic early booking discounts & start planning your journey</p>
+                </div>
+                <div class="row">
+                    <div class="col d-flex" id="destinations">
+                        <div class="card">
+                            <div class="container" id="container-madrid">
+                                <img src="assets/img/madrid.png" alt="Madrid" id="imgmadrid">
+                                <a class="btn btn-primary" href="#" id="btnmadrid">Book Now</a>
+                            </div>
+                            <div class="card-body">
+                                <div class="container d-flex flex-row">
+                                    <div class="col">
+                                        <h5 class="card-title">Madrid</h5>   
+                                        <p><span class="ec ec-round-pushpin"></span>Spain</p>
+                                    </div>
+                                    <div class="d-flex flex-column align-self-center" >
+                                            <p><span class="ec ec-star"></span> 4.8</p>
+                                            <div class="container d-flex">
+                                                <div class="col">
+                                                    <p><span id="old-price">$950</span></p>
+                                                </div>
+                                                <div class="col">
+                                                    <p><span id="new-price">$850</span></p>
+                                                </div>
+                                            </div>
+                                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex" id="destinations">
+                        <div class="card">
+                            <div class="container" id="container-firenze">
+                                <img src="assets/img/firenze.png" alt="Firenze" id="imgfirenze">
+                                <a class="btn btn-primary" href="#" id="btnfirenze">Book Now</a>
+                            </div>
+                            <div class="card-body">
+                                <div class="container d-flex flex-row">
+                                    <div class="col">
+                                        <h5 class="card-title">Firenze</h5>   
+                                        <p><span class="ec ec-round-pushpin"></span>Italy</p>
+                                    </div>
+                                    <div class="d-flex flex-column align-self-center" >
+                                            <p id="valoration"><span class="ec ec-star"></span> 4.5</p>
+                                            <div class="container d-flex">
+                                                <div class="col">
+                                                    <p><span id="old-price">$850</span></p>
+                                                </div>
+                                                <div class="col">
+                                                    <p><span id="new-price">$750</span></p>
+                                                </div>
+                                            </div>   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex" id="destinations">
+                        <div class="card">
+                            <div class="container" id="container-paris">
+                                <img src="assets/img/paris.png" alt="Paris" id="imgparis">
+                                <a class="btn btn-primary" href="#" id="btnparis">Book Now</a>
+                            </div>
+                            <div class="card-body">
+                                <div class="container d-flex flex-row">
+                                    <div class="col">
+                                        <h5 class="card-title">Paris</h5>   
+                                        <p><span class="ec ec-round-pushpin"></span>France</p>
+                                    </div>
+                                    <div class="d-flex flex-column align-self-center" >
+                                            <p id="valoration"><span class="ec ec-star"></span> 4.4</p>
+                                            <div class="container d-flex">
+                                                <div class="col">
+                                                    <p><span id="old-price">$699</span></p>
+                                                </div>
+                                                <div class="col">
+                                                    <p><span id="new-price">$599</span></p>
+                                                </div>
+                                            </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex" id="destinations">
+                        <div class="card">
+                            <div class="container">
+                                <img src="assets/img/london.png" alt="London" id="imglondon">
+                                <a class="btn btn-primary" href="#" id="btnlondon">Book Now</a>
+                            </div>
+                            <div class="card-body">
+                                <div class="container d-flex">
+                                    <div class="col">
+                                        <h5 class="card-title">London</h5>   
+                                        <p><span class="ec ec-round-pushpin"></span>UK</p>
+                                    </div>
+                                    <div class="d-flex flex-column align-self-center" >
+                                            <p id="valoration"><span class="ec ec-star"></span> 4.8</p>
+                                            <div class="container-fluid d-flex">
+                                                <div class="col">
+                                                    <p><span id="old-price">$850</span></p>
+                                                </div>
+                                                <div class="col">
+                                                    <p><span id="new-price">$850</span></p>
+                                                </div>
+                                            </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="ad-container-3">
+                <div class="row">
+                    <div class="row">
+                        <h2>Best <span>vacation plan</span></h2>
+                        <p id="ad-p-3">Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex" id="vacations">
+                        <div class="card">
+                            <img src="assets/img/rome_italty.png" alt="Rome">
+                            <div class="card-body">
+                                <div class="container d-flex flex-row">
+                                    <div class="col">
+                                        <h5 class="card-title">Rome, Italy</h5>   
+                                        <p><span class="ec ec-small-airplane"></span></span>10 Days Trip</p>
+                                    </div>
+                                    <div class="d-flex flex-column align-self-center" >
+                                        <p id="price">$5,4k</p>
+                                        <p><span class="ec ec-star"></span> 4.8</p>                                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex" id="vacations">
+                        <div class="card">
+                            <img src="assets/img/london_uk.png" alt="London,UK">
+                            <div class="card-body">
+                                <div class="container d-flex flex-row">
+                                    <div class="col">
+                                        <h5 class="card-title">London,UK</h5>   
+                                        <p><span class="ec ec-small-airplane"></span></span>07 Days Trip</p>
+                                    </div>
+                                    <div class="d-flex flex-column align-self-center" >
+                                        <p id="price">$2.42k</p>
+                                        <p><span class="ec ec-star"></span> 4.7</p>                                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex" id="vacations">
+                        <div class="card">
+                            <img src="assets/img/osaka_japan.png" alt="Osaka,Japan">
+                            <div class="card-body">
+                                <div class="container d-flex flex-row">
+                                    <div class="col">
+                                        <h5 class="card-title">Osaka, Japan</h5>   
+                                        <p><span class="ec ec-small-airplane"></span></span>10 Days Trip</p>
+                                    </div>
+                                    <div class="d-flex flex-column align-self-center" >
+                                        <p id="price">$5.42k</p>
+                                        <p><span class="ec ec-star"></span> 4.8</p>                                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="comment-container">
+                <div class="row">
+                    <div class="col-6">
+                        <h2>What people say <span>about us</span></h2>
+                        <p>Our Clients send us bunch of smilies with our services and we love them</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="assets/img/comments.png" alt="comments">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="blog-container">
+                <div class="rows">
+                    <h2>Get update with <span>lastest blog</span></h2>
+                </div>
+                <div class="rows d-flex">
+                    <div class="col">
+                        <div class="container">
+                            <img src="assets/img/apartments.png" alt="apartaments">
+                            <h5>The Amazing Difference a Year of Travelling</h5>
+                            <p>July 27, 2021</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="container">
+                            <img src="assets/img/kiosk.png" alt="kiosk">
+                            <h5>Travel far enough, you meet yourself</h5>
+                            <p>July 27, 2021</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="container">
+                            <img src="assets/img/hallway.png" alt="hallway">
+                            <h5>How to save Money While Visiting Africa</h5>
+                            <p>July 27, 2021</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="container">
+                            <img src="assets/img/boulder.png" alt="boulder">
+                            <h5>Reflections on 5 Months of Travel: Time to Hang</h5>
+                            <p>July 27, 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="subs-container">
+                <div class="row">
+                    <h2>Subscribe and get exclusive deals & offer</h2>
+                </div>
+                <div class="flex-row">
+                    <form class="d-flex">
+                        <input type="text" placeholder="Enter your mail">
+                        <a class="btn btn-primary" type="submit" href="#" id="btnsubs">Subscribe</a>
+                    </form>
+                </div>
+            </div>
+
+            <footer id="pie-de-pagina">
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-5">
+                            <img src="assets/img/trabook_logo.png" alt="Trabook" >
+                            <p>Book your trip in minute, get full control for much longer</p>
+                            <div class="container d-flex justify-content-start" id="social-media">
+                                <div class="container d-flex align-items-center justify-content-center"  id="facebook">
+                                    <img src="assets/img/facebook.png" alt="facebook">
+                                </div>
+                                <div class="container d-flex align-items-center justify-content-center"  id="instagram">
+                                    <img src="assets/img/instagram.png" alt="instagram">
+                                </div>
+                                <div class="container d-flex align-items-center justify-content-center"  id="twitter">
+                                <img src="assets/img/twitter.png" alt="twitter">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <h3>Company</h3>
+                            <p>About</p>
+                            <p>Careers</p>
+                            <p>Logistic</p>
+                            <p>Privacy & Policy</p>
+                        </div>
+                        <div class="col-2">
+                            <h3>Contact</h3>
+                            <p>Help/FAQ</p>
+                            <p>Press</p>
+                            <p>Affiates</p>
+                        </div>
+                        <div class="col-2">
+                            <h3>More</h3>
+                            <p>Press Centre</p>
+                            <p>Our Blog</p>
+                            <p>Low fare tips</p>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-between" id="Terms">
+                        <div class="col">
+                            <p>Copyright, Trabook 2022. All rights reserved</p>
+                        </div>
+                        <div class="col d-flex justify-content-end">
+                            <p>Terms & Conditions</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </body>
+</html>
